@@ -127,3 +127,32 @@ hr{
 }
 
 
+
+
+@media only screen and (max-width:700px) {
+    .left-bar{
+        display: none;
+        transition: ease-out;
+    }
+    .UI-center{
+        max-width: 90%;
+        align-items: center;
+    }
+
+    .float-button{
+
+       
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+
+
+    padding: 1.4rem;
+    border: solid black;
+    border-radius: 50%;
+
+    font-size: xx-large;
+    background-color: rgb(33, 152, 156);
+    }
+
+
