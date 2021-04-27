@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Recipe
+    </title>
+    <link rel="stylesheet" href="components/main.css" />
+    <!-- <link rel="stylesheet" href="components/components.css" /> -->
+</head>
+<body>
+
+
+
+    <nav >
+        <div class="left" id="top">
+
+            <!--🍲🍜 <img src="dog.svg"> -->
+            <h1>🍱 UI Recipe</h1>
+
+        </div>
+
+    </nav>
+
+
+
+    <div class="UI-body">
+
+        <div class="left-bar ">
+
+            <ul class="bar-fix sl">
+                <li class="box-heading">Components ⚙️ </li> 
+                <br>
+                <li style="text-decoration: underline;">Layout & Utilities</li>
+                <li><a href="#Text">Text Utilities</a></li>
+                <br>
+
+                <li style="text-decoration: underline;">Elements</li>
+                <li><a href="#Button">Button</a></li>
+                <li><a href="#Image">Image</a></li>
+                <li><a href="#Lists">Lists</a></li>
+                <li><a href="#styled-input">Input</a></li>
+                <br>
+
+
+                <li style="text-decoration: underline;">Collection</li>
+
+                <li><a href="#Avatar">Avatar</a></li>
+
+                <li><a href="#Alert">Alert</a></li>
+                <li><a href="#Badge">Badge</a></li>
+                <li><a href="#Card">Card</a></li>
+                <li><a href="#Modal">Modal</a></li>
+
+                <li><a href="#Rating">Rating</a></li>
+                <li><img src="images/Roo.svg" /></li>
+
+
+            </ul>
+
+
+        </div>
+
+        <div class="UI-center">
+            <hr>
+            
+           
+          
+            <img class="img-size" src="images/bod.svg">
+
+            <hr>
+            
+           
+
+
+            <div style="text-align: center;">
+
+                <div class="code-out">
+                    <h1 style="color: blue; font-style: italic ;">Searching for components to Build your own UI</h1>
+            
+                    <p>
+                     Well your search ends here with UI Recipe . Here almost all the basic Components are provided along with code and information for you to build your own Web Apps/Pages. Happy Learning !!!
+                    </p>
+                </div>
+
+                <div class="code">
+
+                    <ul class="sl">
+                        <li>  //Getting Started  </li>
+                        <li>   Simply add stylesheet link to your project header. </li>
+
+                        <li>  Start Building !  </li>
+
+                        <li>  <input type="text" class="style-input" readonly value="<link rel='stylesheet type='text/css' href='https://ui-recipe.netlify.app/components.css'>">  </li>
+
+                    </ul>
+
+                </div>
+            
+            </div>
+
+
+            <ul class="sl">
+                
+                <hr>
+                <li id="Avatar"><h1 class="main-heading"> 
+                    
+                      Avatar  
+                </h1>
+                <p class="para">
+                    
+                    <div class="code-out">
+
+
+                        <img class="avatar sm" src="images/avatar.svg">
+
+                        <img class="avatar md" src="images/avatar.svg">
+
+                        <img class="avatar lg" src="images/avatar.svg">  
+
+                    </div>
+
+                    <div class="code">
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code //</h2>
+
+                            <li>    // small avatar //  </li>
+                            <li>    &lt;img class="avatar sm" src="images/avatar.svg">  </li>
+                            <li>   // medium avatar //   </li>
+                            <li>   &lt;img class="avatar md" src="images/avatar.svg">   </li>
+
+                            <li>   // large avatar //   </li>
+                            <li>    &lt;img class="avatar lg" src="images/avatar.svg">   </li>
+
+                        </ul>
+
+                    </div>
+
+                </p>
+                
+                </li> 
+
+
+                <hr>
+                <li id="Text"><h1 class="main-heading">
+                       Text Utilities 
+                </h1>
+                <p class="para">
+                    In HTML we have formats from h1 to h6 depending on the type of heading.
+
+
+                    <div class="code-out">
+                    
+                       <h1>h1 heading (36px)</h1> 
+                        <h2>h2 heading (30px)</h2>
+                        <h3>h3 heading (24px)</h3>
+                        <h4>h4 heading (18px)</h4>
+                        <h5>h5 heading (14px)</h5>
+                        <h6>h6 heading (12px) </h6>  
+                    </div>
+
+                    <hr>
+
+                    <div class="code">
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code //</h2>
+
+                            <li> &lt;h1>h1 heading (36px)&lt;/h1>  </li>
+                            <li> &lt;h2>h2 heading (30px)&lt;/h2> </li>
+                            <li>  &lt;h3>h3 heading (24px)&lt;/h3></li>
+                            <li>  &lt;h4>h4 heading (18px)&lt;/h4></li>
+                            <li> &lt;h5>h5 heading (14px)&lt;/h5> </li>
+                            <li> &lt;h6>h6 heading (12px) &lt;/h6>  </li>   
+                        </ul>
+    
+                        
+
+                    </div>
+                </p>
+
+                
+                </li>
+                
+
+                <hr>
+                <li id="Alert"><h1 class="main-heading">
+                      Alert  
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <div class="alert">
+                            <img class="alert-icon" src="images/info.svg" />This is an alert.
+                         </div>
+                     
+                         <div class="alert alert-success">
+                             <img class="alert-icon" src="images/success.svg" />This is success alert - check it out.
+                         </div>
+                     
+                     
+                         <div class="alert alert-warning">
+                             <img class="alert-icon" src="images/warning.svg" />This is warning alert - check it out.
+                         </div>
+                     
+                     
+                         <div class="alert alert-error">
+                             <img class="alert-icon" src="images/error.svg" />This is error alert - check it out.
+                         </div>
+                     
+                     
+                     
+
+                    </div>
+
+                    <div class="code">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code for alert //</h2>
+
+
+                            <li>   &lt;div class="alert">   </li>
+                            <li>    &lt;img class="alert-icon" src="images/info.svg" />This is an alert. </li>
+                            <li>   &lt;/div>   </li>
+                            <h2 style="color: blue;"> // code for success alert //</h2>
+
+                            <li>  &lt;div class="alert alert-success">    </li>
+                            <li>   &lt;img class="alert-icon" src="images/success.svg" />This is success alert - check it out.</li>
+                            <li>   &lt;/div>   </li>
+
+                            <h2 style="color: blue;"> // code for warning alert //</h2>
+
+                            <li>   &lt;div class="alert alert-warning">   </li>
+                            <li>   &lt;img class="alert-icon" src="images/warning.svg" />This is warning alert - check it out.   </li>
+                            <li>    &lt;/div>  </li>
+
+                            <h2 style="color: blue;"> // code for error alert //</h2>
+
+                            <li>   &lt;div class="alert alert-error">   </li>
+                            <li>    &lt;img class="alert-icon" src="images/error.svg" />This is error alert - check it out.  </li>
+                            <li>     &lt;/div>  </li>
+
+                        </ul>
+
+                    </div>
+
+                </p>
+                
+                </li>
+
+                <hr>
+                <li id="Badge"><h1 class="main-heading">
+                      Badge  
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <div style="display: flex; margin: 3rem;justify-content: space-evenly;">
+
+                            <div class="badge">
+                                <img class="avatar md" src="images/body-main.svg">
+                                <span class="status online"> </span>
+                        
+                            
+                            </div>
+                            <br>
+                            <div class="badge">
+                                <img class="avatar md" src="images/body-main.svg">
+                                <span class="status offline"> </span>
+                        
+                            </div>
+                            <br>
+                            <div class="badge">
+                                <img class="avatar md" src="images/body-main.svg">
+                                <span class="status connecting"> </span>
+                        
+                            </div>
+                       </div>
+                        
+
+                    </div>
+
+                    <div class="code">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> &lt; code for online avatar ></h2>
+
+
+                            <li>   &lt;div class="badge">   </li>
+                            <li>    &lt;img class="avatar md" src="images/body-main.svg">   </li>
+                            <li>   &lt;span class="status online"> &lt;/span>   </li>
+                            <li>    &lt;/div>  </li>
+
+                            <h2 style="color: blue;"> &lt; code for offline avatar  ></h2>
+
+                            <li>    &lt;div class="badge">  </li>
+                            <li>    &lt;img class="avatar md" src="images/body-main.svg">  </li>
+                            <li>     &lt;span class="status offline"> &lt;/span>  </li>
+                            <li>    &lt;/div>  </li>
+
+                            <h2 style="color: blue;"> &lt; code for connecting avatar ></h2>
+
+                            <li>    &lt;div class="badge">  </li>
+                            <li>    &lt;img class="avatar md" src="images/body-main.svg">  </li>
+                            <li>    &lt;span class="status connecting"> &lt;/span>  </li>
+                            <li>     &lt;/div>  </li>
+
+
+                        </ul>
+
+
+                    </div>
+
+                </p>
+                
+                </li>
+
+                <hr>
+                <li id="Button"><h1 class="main-heading">
+                      Button  
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <ul class="sl">
+
+                            <li> <button class="primary-button">Primary-button</button>  </li>
+                            <li> <button class="sec-button">Second-button</button> </li>
+                            <li>  <button class="light-button">Light-button</button></li>
+                            <li>  <button class="shop-button">Shop-button</button></li>
+
+                            <!-- float-button -->
+
+                            <a href="#top"><button class="float-button">⬆️</button></a>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="code">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code //</h2>
+
+                            <li> &lt;button class="primary-button">Primary-button&lt;/button>  </li>
+                            <li> &lt;button class="sec-button">Second-button&lt;/button> </li>
+                            <li>  &lt;button class="light-button">Light-button&lt;/button></li>
+                            <li>  &lt;button class="shop-button">Shop-button&lt;/button></li>
+
+                           
+                        </ul>
+
+                
+                    </div>
+
+                </p>
+                
+                </li>
+
+                <hr>
+                <li id="Card"><h1 class="main-heading">
+                      Card  
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <div class="card">
+
+                            <img class="card-img" src="images/body.svg">
+                            <div class="card-heading">Flash Sale</div>
+                    
+                            <div class="card-body"> Hurry up and shop now for exclusive discounts on your favourite products.</div>
+                    
+                            <button class="shop-button">Shop</button>
+                    
+                            <button class="close-button">X</button>
+                    
+                    
+                        </div>
+                    
+
+                    </div>
+
+                    <div class="code">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code //</h2>
+
+
+                            <li>  &lt;div class="card">    </li>
+                            <li>  &lt;img class="card-img" src="images/body.svg">    </li>
+                            <li>    &lt;div class="card-heading">Flash Sale&lt;/div>   </li>
+                            <li>   &lt;div class="card-body"> Hurry up and shop now for exclusive discounts on your favourite products.&lt;/div> </li>
+                            <li>    &lt;button class="shop-button">Shop&lt;/button>  </li>
+                            <li>    &lt;button class="close-button">X&lt;/button>   </li>
+                            <li>      &lt;/div>  </li>
+
+
+                        </ul>
+
+                    </div>
+
+                </p>
+                
+                </li>
+
+                <hr>
+                <li id="Image"><h1 class="main-heading">
+                        Image 
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <img class="thumb-img" src="images/body.svg">
+
+                    </div>
+
+                    <div class="code">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code //</h2>
+
+
+                            <li>    &lt;img class="thumb-img" src="images/body.svg">  </li>
+                            <li>      </li>
+                            <li>      </li>
+                            <li>      </li>
+
+
+                        </ul>
+
+                    </div>
+
+                </p>
+                
+                </li>
+
+                <hr>
+                <li id="styled-input"><h1 class="main-heading">
+                       Styled Input
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <input type="text" class="style-input" placeholder ="Input message"> 
+
+                    </div>
+
+                    <div class="code">
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code //</h2>
+
+                            <li> &lt; input type = "text" class = "style-input" placeholder="Input message">   </li>
+                        </ul>
+                    </div>
+
+                </p>
+                
+                </li>
+
+
+                <hr>
+                <li id="Lists"><h1 class="main-heading">
+                       Lists 
+                </h1>
+                <hr>
+
+                <div class="para">
+
+                    <ul class="sl ">
+                        We have 3 types of lists :
+
+                        <li> Simple List without Bullets</li>
+                        <li> Stacked List  </li>
+                        <li> Stacked List (spaced) </li>
+                        
+                    </ul>
+
+                 </div>
+
+
+
+                    <div class="code-out">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // Simple List without Bullets//</h2>
+
+                            <li> Sentence one </li>
+                            <li> Sentence two</li>
+                            <li>  Sentence three</li>
+                            
+                        </ul>
+
+                    </div>
+
+                    <div class="code">
+                        <h2 style="color: blue;"> // Code of Simple List //</h2>
+                        <ul class="sl">
+
+
+                        <li>&lt;ul class="simple-list"></li>
+
+                            <li> &lt;li> Sentence one  &lt;/li>  </li>
+                            <li>  &lt;li> Sentence two&lt;/li> </li>
+                            <li>  &lt;li>  Sentence three &lt;/li> </li>
+                            <li>  &lt;/ul> </li>
+
+                              
+                        </ul>
+    
+
+                    </div>
+
+
+                    <div class="code-out">
+
+
+                        <ul class="stacked-list " >
+                            <h2 style="color: blue;"> // Stacked List//</h2>
+
+                            <li> Sentence one </li>
+                            <li> Sentence two</li>
+                            <li>  Sentence three</li>
+                            
+                        </ul>
+
+                    </div>
+
+                    <div class="code">
+                        <h2 style="color: blue;"> // Code of Stacked List //</h2>
+                        <ul class="stacked-list">
+
+
+                        <li>&lt;ul class="stacked-list"></li>
+
+                            <li> &lt;li> Sentence one  &lt;/li>  </li>
+                            <li>  &lt;li> Sentence two&lt;/li> </li>
+                            <li>  &lt;li>  Sentence three &lt;/li> </li>
+                            <li>  &lt;/ul> </li>
+
+                              
+                        </ul>
+    
+
+                    </div>
+
+
+
+                    <div class="code-out">
+
+
+                        <ul class="stacked-list list-space" >
+                            <h2 style="color: blue;"> // Stacked List (spaced) //</h2>
+
+                            <li> Sentence one </li>
+                            <li> Sentence two</li>
+                            <li>  Sentence three</li>
+                            
+                        </ul>
+
+                    </div>
+
+                    <div class="code">
+                        <h2 style="color: blue;"> // Code of Stacked List (spaced) //</h2>
+                        <ul class="simple-list">
+
+
+                        <li>&lt;ul class="stacked-list list-space"></li>
+
+                            <li> &lt;li> Sentence one  &lt;/li>  </li>
+                            <li>  &lt;li> Sentence two&lt;/li> </li>
+                            <li>  &lt;li>  Sentence three &lt;/li> </li>
+                            <li>  &lt;/ul> </li>
+
+                              
+                        </ul>
+    
+
+                    </div>
+                
+           
+
+                </li>
+
+                <hr>
+                <li id="Modal"><h1 class="main-heading">
+                        Modal 
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <div class="modal">
+                            <div class="modal-heading">Flash Sale</div>
+                    
+                            <div class="modal-body"> Hurry up and shop now for exclusive discounts on your favourite products.</div>
+                    
+                            <button class="shop-button">Shop</button>
+                    
+                            <button class="close-button">X</button>
+                    
+                    
+                        </div>
+                    
+
+                    </div>
+
+                    <div class="code">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> < code > </h2>
+
+
+                            <li>   &lt;div class="modal">   </li>
+                            <li>    &lt;div class="modal-heading">Flash Sale&lt;/div>   </li>
+                            <li>     &lt;div class="modal-body"> Hurry up and shop now for exclusive discounts on your favourite products.&lt;/div></li>
+                            <li>    &lt;button class="shop-button">Shop&lt;/button>  </li>
+                            <li>    &lt;button class="close-button">X&lt;/button>   </li>
+                            <li>     &lt;/div>  </li>
+
+
+                        </ul>
+
+
+                    </div>
+
+                </p>
+                
+                </li> 
+
+                <hr>
+                <li id="Rating"><h1 class="main-heading">
+                       Rating 
+                </h1>
+                <p class="para">
+
+                    <div class="code-out">
+
+                        <div style="display: flex; justify-content: space-around;padding: 3rem 0rem;">
+
+                            <div class="rating rating-black">4.5  &#9733 &#9733 &#9733 &#9733 &#9733 </div>
+
+                            <div class="rating rating-yellow">4.5  &#9733 &#9733 &#9733 &#9733 &#9733 </div>
+    
+                            <div class="rating rating-green">4.5  &#9733 &#9733 &#9733 &#9733 &#9733 </div>
+    
+    
+    
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="code">
+
+
+                        <ul class="sl">
+                            <h2 style="color: blue;"> // code //</h2>
+
+
+                            <li>   &lt;div class="rating rating-black">4.5  &#9733 &#9733 &#9733 &#9733 &#9733 &lt;/div>   </li>
+                            <li>   &lt;div class="rating rating-yellow">4.5  &#9733 &#9733 &#9733 &#9733 &#9733 &lt;/div>   </li>
+                            <li>     &lt;div class="rating rating-green">4.5  &#9733 &#9733 &#9733 &#9733 &#9733 &lt;/div>  </li>
+                            <li>      </li>
+
+
+                        </ul>
+
+                        <br>
+                        
+
+                        Note: The stars here are represented by farmula   &# 9733  without space between # and 9
+
+
+                    </div>
+
+                </p>
+                
+                </li> 
+                <hr>
+
+          
+
+                <hr>
+
+
+                <li id="about">
+
+                    <div class="para">
+                        Happy to help you !!!
+
+                    </div>
+
+
+                    <div class="code-out">
+
+                        <span style="font-size:300%;color:red;">&hearts;</span>
+
+
+                    </div>
+
+                    <div class="code">
+
+                        Designed and Developed by <a href="https://pidarraman.netlify.app/" >Raman Pidar</a>.
+                    </div>
+                    <div style="background-color: var(--primGreen); border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem; padding: 1rem;">
+
+                    </div>
+
+
+
+                </li>
+                
+                
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
