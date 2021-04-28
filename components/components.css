@@ -62,7 +62,7 @@
     color: white;
 }
 
-.shop-button{
+/* .shop-button{
     padding: 0.7rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
@@ -70,6 +70,20 @@
     border: none;
 
     background-color: var(--light-shadow);
+}
+ */
+
+.shop-button{
+    padding: 0.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    border-radius: 0.2rem;
+    border: none;
+
+    background-color: var(--light-shadow);
+    width: 97%;
+    align-self: center;
+    margin-left: 0.3rem;
 }
 
 
