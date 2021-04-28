@@ -62,7 +62,7 @@
     color: white;
 }
 
-/* .shop-button{
+.shop-button{
     padding: 0.7rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
@@ -71,9 +71,9 @@
 
     background-color: var(--light-shadow);
 }
- */
 
-.shop-button{
+
+.ecom-shop-button{
     padding: 0.3rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
