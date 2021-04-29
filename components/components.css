@@ -97,6 +97,22 @@
 }
 
 
+.shop-button{
+    padding: 0.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    border-radius: 0.2rem;
+    border: none;
+
+    background-color: var(--light-shadow);
+    width: 97%;
+    align-self: center;
+    margin-left: 0.25rem;
+}
+
+
+
+
 
 /* Floating button */
 
@@ -347,6 +363,65 @@
     object-fit: cover;
     padding: 00.5rem;
 }
+
+
+
+
+
+.ecom-card{
+    position: relative;
+    height: 22.6rem;
+    width: 16rem;
+    box-shadow: 0.2rem 0.2rem 1rem 0.1rem var(--light-shadow);
+
+}
+
+
+.ecom-card-price{
+    font-weight: bolder;
+    padding-left: 0.6rem;
+
+}
+
+
+.ecom-card-mrp{
+
+    font-size:85%;
+    color: var(--box-shadow);
+    text-decoration: line-through;
+    padding-left: 0.2rem;
+
+
+}
+
+.ecom-card-discount{
+    color: var(--alert-orange);
+    padding-left: 0.5rem;
+}
+
+
+
+
+.ecom-card-brand{
+    font-weight: bolder;
+    margin-left: 0.5rem;
+}
+
+
+.ecom-card-category{
+    padding: 0.5rem;
+    font-size:85%;
+    color: var(--box-shadow);
+}
+
+
+.ecom-card-img{
+   width: 100%;
+    height: auto;
+}
+
+
+
 
 
 /* Ratings */
