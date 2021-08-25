@@ -41,6 +41,7 @@ color: honeydew;
 font-size: x-large;
 box-shadow: 0rem 0rem 10px 2px gray;
 
+    position: fixed;
 
 max-width: 30%;
 flex-grow: 2fr;
